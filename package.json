@@ -1,0 +1,45 @@
+{
+  "name": "grunt-ltss",
+  "description": "grunt plugin for ltss",
+  "version": "0.1.0",
+  "homepage": "None",
+  "author": {
+    "name": "David Bankier",
+    "email": "@davidbankier"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dbankier/grunt-ltss"
+  },
+  "bugs": {
+    "url": "https://github.com/dbankier/grunt-ltss/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "None/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-clean": "~0.4.0",
+    "grunt-contrib-nodeunit": "~0.2.0",
+    "grunt": "~0.4.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.1"
+  },
+  "keywords": [
+    "gruntplugin"
+  ],
+  "dependencies": {
+    "ltss": "0.0.2"
+  }
+}
