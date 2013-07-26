@@ -40,6 +40,6 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "ltss": "0.0.2"
+    "ltss": "0.0.3"
   }
 }

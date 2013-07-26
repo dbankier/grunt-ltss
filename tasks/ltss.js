@@ -8,7 +8,8 @@
 
 'use strict';
 
-var ltss = require("ltss");
+var ltss = require("ltss"),
+    path = require("path");
 
 module.exports = function(grunt) {
 
@@ -39,7 +40,7 @@ module.exports = function(grunt) {
 
       // Handle options.
       src += options.punctuation;
-      ltss.compileString(src, function(err, data) {
+      ltss.compileString(src, path.dirname(src), function(err, data) {
         // Write the destination file.
         grunt.file.write(f.dest, data);
 
