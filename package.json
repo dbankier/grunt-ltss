@@ -1,7 +1,7 @@
 {
   "name": "grunt-ltss",
   "description": "grunt plugin for ltss",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "None",
   "author": {
     "name": "David Bankier",
@@ -40,6 +40,6 @@
     "gruntplugin"
   ],
   "dependencies": {
-    "ltss": "0.0.2"
+    "ltss": "0.0.4"
   }
 }
