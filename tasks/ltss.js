@@ -40,7 +40,7 @@ module.exports = function(grunt) {
 
       // Handle options.
       src += options.punctuation;
-      ltss.compileString(src, path.dirname(src), function(err, data) {
+      ltss.compileString(src, path.dirname(f.src), function(err, data) {
         // Write the destination file.
         grunt.file.write(f.dest, data);
 
